@@ -1,0 +1,26 @@
+{
+  "name": "webpack-scope-hoisting",
+  "version": "1.0.0",
+  "description": "`Scope-Hoisting` 是作用域提升的意思，它的作用是把打散的模块合并到一个函数中去",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpeck --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestCindy/webpack-scope-hoisting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bestCindy/webpack-scope-hoisting/issues"
+  },
+  "homepage": "https://github.com/bestCindy/webpack-scope-hoisting#readme",
+  "devDependencies": {
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
